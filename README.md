@@ -5,3 +5,9 @@ O projeto foi desenvolvido utilizando a plataforma Node.js. As dependências est
 - **Express**: Framework para gerenciamento de rotas e requisições HTTP.
 - **EJS (Embedded JavaScript templates)**: Mecanismo de renderização para as telas.
 - **Dotenv**: Gerenciamento de variáveis de ambiente seguras.
+
+##  Banco de Dados
+A persistência de dados da plataforma é estruturada através de uma conexão centralizada:
+- Configurada no arquivo `config/database.js`.
+- Garante o armazenamento seguro das informações de usuários e dos itens doados.
+- Integração direta com os modelos de dados da aplicação.

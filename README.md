@@ -16,3 +16,8 @@ A persistência de dados da plataforma é estruturada através de uma conexão c
 A lógica de negócio da plataforma de doações foi dividida em dois modelos principais:
 - **Usuario.js**: Mapeia o perfil dos usuários (Nome, E-mail, Senha e Tipo de perfil).
 - **Alimento.js**: Controla os itens cadastrados para doação (Descrição, Quantidade, Validade e Status).
+
+## Rotas e Segurança
+O controle de navegação da plataforma protege os dados dos usuários através de:
+- **Middleware de Autenticação (`middleware/auth.js`)**: Restringe o acesso a páginas internas.
+- **Rotas de Autenticação (`routes/authRoutes.js`)**: Gerencia os caminhos de login, registro e encerramento de sessão.

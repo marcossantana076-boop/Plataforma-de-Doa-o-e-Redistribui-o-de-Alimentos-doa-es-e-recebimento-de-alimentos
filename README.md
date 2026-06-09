@@ -21,3 +21,10 @@ A lógica de negócio da plataforma de doações foi dividida em dois modelos pr
 O controle de navegação da plataforma protege os dados dos usuários através de:
 - **Middleware de Autenticação (`middleware/auth.js`)**: Restringe o acesso a páginas internas.
 - **Rotas de Autenticação (`routes/authRoutes.js`)**: Gerencia os caminhos de login, registro e encerramento de sessão.
+
+##  Interfaces Visuais (Views)
+As telas do sistema foram desenvolvidas utilizando views dinâmicas em EJS:
+- `login.ejs` e `cadastro.ejs`: Telas de acesso e criação de conta.
+- `dashboard.ejs`: Painel principal de controle de doações e recebimentos.
+- `editar alimentos.ejs`: Interface para modificação de itens no estoque de doações.
+

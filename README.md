@@ -11,3 +11,8 @@ A persistência de dados da plataforma é estruturada através de uma conexão c
 - Configurada no arquivo `config/database.js`.
 - Garante o armazenamento seguro das informações de usuários e dos itens doados.
 - Integração direta com os modelos de dados da aplicação.
+
+##  Modelos de Dados (Models)
+A lógica de negócio da plataforma de doações foi dividida em dois modelos principais:
+- **Usuario.js**: Mapeia o perfil dos usuários (Nome, E-mail, Senha e Tipo de perfil).
+- **Alimento.js**: Controla os itens cadastrados para doação (Descrição, Quantidade, Validade e Status).
